@@ -21,4 +21,39 @@
 </template>
 
 <script>
+	
+	export default {
+		name: 'ElCheckbox',
+		
+		inject: {
+			elForm: {
+				default: ''
+			},
+			elFormItem: {
+				default: ''
+			}
+		},
+		
+		props: {
+			
+		},
+		
+		data() {
+			return {
+				
+			}
+		},
+		
+		computed: {
+			
+		},
+		
+		methods: {
+			
+		},
+		
+		watch: {
+			
+		}		
+	};
 </script>

@@ -44,11 +44,12 @@
 </template>
 
 <script>
+	import Emitter from '../../../src/mixins/emitter';
 	
 	export default {
 		name: 'ElRadio',
 		
-		mixins: [],
+		mixins: [Emitter],
 		
 		inject: {
 			elForm: {
